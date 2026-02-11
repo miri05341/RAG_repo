@@ -1,5 +1,22 @@
-# RAG_repo
-Mini RAG - (Python, AI‑oriented)
-Download the Sample_Docs_Markdown folder from Hugging Face: vibrantlabsai/Sample_Docs_Markdown.
-Build a RAG pipeline in Python that allows a user to ask questions about the documents: load all .md files, split them into chunks, create embeddings and index them in a vector store, retrieve the top‑k most relevant chunks for a query, and generate an answer grounded in the retrieved context. 
-The output should include the answer as well as the supporting references (e.g., file name and chunk id / snippet) that were used to produce it.
+#RAG_repo
+
+## Mini RAG (Python, AI‑oriented)
+
+Download the `Sample_Docs_Markdown` folder from Hugging Face: https://huggingface.co/datasets/vibrantlabsai/Sample_Docs_Markdown
+
+### Task
+Build a RAG pipeline in Python that allows a user to ask questions about the documents.
+
+The system should:
+- Load all `.md` files
+- Split documents into chunks
+- Create embeddings
+- Index them in a vector store
+- Retrieve the top‑k most relevant chunks for a query
+- Generate an answer grounded in the retrieved context
+
+### Output requirements
+The output should include:
+- The generated answer
+- Supporting references (file name + chunk id or snippet)
+
